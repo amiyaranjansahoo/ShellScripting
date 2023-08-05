@@ -5,4 +5,6 @@
 
 ![image](https://github.com/amiyaranjansahoo/ShellScripting/assets/24844782/da2aac0e-50a2-44a7-a659-3ebd809df6bb)
 
-4. The given code block will be repeatedly executed until the given command returns an exit status that is non-zero   
+4. The given code block will be repeatedly executed until the given command returns an exit status that is non-zero.
+
+**break and continue**
