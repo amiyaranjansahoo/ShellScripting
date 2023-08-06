@@ -29,4 +29,9 @@ do
         sleep 2
 done
 
+# Reading a file line by line
+cat input.txt | while read oneLine
+do
+	echo $oneLine
+done
 
