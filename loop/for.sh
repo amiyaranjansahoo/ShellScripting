@@ -13,7 +13,7 @@ for file in /path/to/directory/*
 do
 	if [ -f "$file" ]
 	then
-		echo "Processing file: $file"
+	echo "Processing file: $file"
         # Add your desired action here, such as copying, moving, or processing the file
     fi
 done
