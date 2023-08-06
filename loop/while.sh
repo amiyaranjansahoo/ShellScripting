@@ -35,3 +35,8 @@ do
 	echo $oneLine
 done
 
+# Reading a file line by line
+while read oneLine
+do
+	echo $oneLine
+done < input.txt
