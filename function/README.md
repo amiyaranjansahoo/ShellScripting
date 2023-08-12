@@ -19,3 +19,16 @@ backup_one_file()
 
 backup_one_file sample.txt
 ```
+
+### Loop inside function
+```sh
+backup_these_files()
+{
+	for fname      # short for "for fname in $*
+     	do         
+		cp $fname /backup
+	        echo $fname has been backed up
+	done
+}
+backup_these_files *.txt *.doc
+```
