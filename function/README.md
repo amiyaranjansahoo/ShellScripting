@@ -22,11 +22,13 @@ backup_one_file sample.txt
 
 ### Loop inside function
 ```sh
+touch 1.txt 2.txt 3.doc 4.doc
+mkdir -p backup
 backup_these_files()
 {
 	for fname      # short for "for fname in $*
      	do         
-		cp $fname /backup
+		cp $fname backup
 	        echo $fname has been backed up
 	done
 }
